@@ -18,6 +18,7 @@ public class Fichar extends AppCompatActivity implements View.OnClickListener {
     EditText editText_dni;
     TextView tv_hora,tv_dia,tv_horafin;
     CalendarView calendario;
+    String cadena = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
