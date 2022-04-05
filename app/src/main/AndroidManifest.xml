@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RestaurantManager">
         <activity
+            android:name=".Fichar"
+            android:exported="false" />
+        <activity
+            android:name=".Connect"
+            android:exported="false" />
+        <activity
+            android:name=".Gestion_caja"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Registro"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
